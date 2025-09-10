@@ -1,0 +1,83 @@
+body {
+    background-image: url(png/image_logreg.png);
+    background-size: 1280px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Inter;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(Inter_24pt-Medium.tff);
+}
+
+form {
+    background-color: rgb(0, 0, 0,0.8);
+    text-align: center;
+    height: 570px;
+    width: 300px;
+    margin-left: 430px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 50px;
+    padding-top: 0;
+    border-radius: 15px;
+    padding-bottom: 0;
+}
+
+form img {
+    height: 200px;
+    margin-bottom: -50px;
+    margin-top: -80px;
+}
+
+input {
+    border-radius: 8px;
+    border-style: none;
+    padding: 10px;
+    width: 270px;
+    font-family: Inter;
+}
+
+select {
+    border-radius: 8px;
+    border-style: none;
+    padding: 10px;
+    width: 290px;
+    font-family: Inter;
+}
+
+button {
+    background-color: #ED1111;
+    border-style: none;
+    border-radius: 12px;
+    font-weight: bold;
+    padding: 12px;
+    margin-top: 20px;
+    width: 130px;
+    font-family: Inter;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(72, 72, 72);
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: white;
+    font-size: 17px;
+}
+
+h4{
+    color: white;
+    padding-top: 20px;
+    font-size: 30px;
+}
